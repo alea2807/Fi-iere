@@ -1,0 +1,18 @@
+f=open('C:/Users/Statie-18-C100/intrare.txt','w')
+intrare=str(input())
+f.write(intrare)
+f.close()
+
+f=open('C:/Users/Statie-18-C100/intrare.txt','r')
+x=f.read()
+f.close()
+print(x)
+
+vocal=[]
+for i in range(0,len(x)):
+    if x[i]=='o' or 'a' or 'i' or 'e' or 'u'
+    vocal[i]!=x[i]
+    
+f.open('C:/Users/Statie-18-C100/vocale.txt','w')
+f.write(vocal)
+f.close()
